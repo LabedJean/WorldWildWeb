@@ -4,10 +4,4 @@
     src: url("./fonts/WESLONA.ttf") format("truetype");
     font-weight: normal;
 }
-/*test*/
 
-@font-face {
-    font-family: "Classy Beautiful 2";
-    src: url("./fonts/ClassyBeautiful2.ttf") format("truetype");
-    font-weight: normal;
-}

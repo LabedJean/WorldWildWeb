@@ -39,12 +39,12 @@ h1 {
 /*intro*/
 
 #intro {
-    background-image: linear-gradient(to bottom, #69ba4c, #65cb4a, #5fdc48, #54ed46, #41ff44);
+    background-image: linear-gradient(to bottom, #69ba4caa, #65cb4aaa, #5fdc48aa, #54ed46aa, #41ff44aa);
     height: 100%;
 }
 
 #intro-color {
-    background-image: url("https://nsa40.casimages.com/img/2019/03/04/190304032319608334.png");
+    background-image: url("https://nsa40.casimages.com/img/2019/03/06/190306101256668808.png");
     background-repeat: no-repeat;
     background-position: bottom 0 center
 }
