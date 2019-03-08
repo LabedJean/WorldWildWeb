@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Wild Green</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<meta content="Wild Code School Green Web informations" name="keywords">
+		<meta content="Répertoire des acteurs du Green Web français et notamment en région PACA" name="description">
+		<meta property="og:locale" content="fr_FR">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Wild Green">
+		<meta property="og:description" content="Répertoire des acteurs du Green Web français et notamment en région PACA">
+		<meta property="og:site_name" content="Wild Green">
+        <meta property="og:url" content="www.WildGreen.com">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link href="./style/style.css" rel="stylesheet">
+
+	</head>
+	<body>
+<!-- #header -->
+        <header>
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <a class="navbar-brand" href="./index.html">Wild Green</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link" href="./greenwild-presentation.html">Présentation</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./action.html">Agir</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./entreprises.html">Quelques Acteurs</a>
+                    </li>  
+                    <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                    </li> 
+                </ul>
+                </div>  
+            </nav>
+        </header>
+<!--#header -->
+<!--intro-->
+        <section id="acteurs">
+            <div class="container">
+                <div class=" d-flex align-items-center flex-column">
+                    <h1>Qui est <span> &nbsp super green</span> &nbsp ?</h1>
+                    <p id="sous-titre">Chaque entreprise qui agit sur le web en est actrice. <br /> Mais quelles sont les entreprises actrices du Green Web ? <br /> Voici un extrait de celles qui ont suscité notre intérêt !</p>
+    <!--CSS index à ajouter-->
+                <div class="dropdown d-flex align-items-center">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Menu
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <button class="dropdown-item" type="button"><a href="#moteurs">Moteurs de recherche</a></button>
+                    <button class="dropdown-item" type="button"><a href="#hebergeurs">Hebergeurs de site</a></button>
+                    <button class="dropdown-item" type="button"><a href="#annuaire">Annuaire Green</a></button>
+                    </div>
+                </div>
+                </div>
+            </div> 
+    <!--Moteurs de recherche-->
+            <div class="container-fluid" id="moteurs">
+                <div class=" d-flex align-items-center flex-column">
+                    <h2>Moteurs de recherche</h2>
+                    <p>Grâce à la publicité, chaque internaute fait gagner aux moteurs de recherche 30 euros par ans. <br />Sachant qu’il y a plus d’un milliard d’utilisateurs chaque jour, cela fait beaucoup d’argent.</p>
+                </div>
+                <div class="container">
+                    <div class="row d-flex justify-content-between">
+                        <div class="card" style="width:400px">
+                            <img class="card-img-top" src='https://nsa40.casimages.com/img/2019/03/06/190306073021976375.png'  alt='logo lilo goutte d’eau'  style="width:100%">
+                            <div class="card-body">
+                                <h3 class="card-title">Lilo</h3>
+                                <p class="card-text">On peut faire beaucoup avec quelques gouttes d'eau</p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalLilo">
+                                        En savoir plus
+                                </button>
+                            </div>
+                            <div class="modal fade" id="modalLilo">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">     
+                                        <div class="modal-body">
+                                            Ici, chaque recherche (qui fait gagner de l’argent à Lilo, donc) fait gagner une goutte d’eau à l’utilisateur. Ce dernier donne ensuite ses gouttes d’eau au projet de son choix, ce qui permet à Lilo de le financer, tout simplement ! Au total, c’est 1 597 524 euros collecté !
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.lilo.org/fr/" class="btn btn-primary">En savoir encore plus! </a>
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Retour</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width:400px">
+                            <img class="card-img-top" src='https://nsa40.casimages.com/img/2019/03/06/190306073021701619.png' alt='logo ecosia avec planète terre' style="width:100%">
+                            <div class="card-body">
+                                <h3 class="card-title">Ecosia</h3>
+                                <p class="card-text">Une graine après l'autre...</p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalEcosia">
+                                        En savoir plus
+                                </button>
+                            </div>
+                            <div class="modal fade" id="modalEcosia">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">     
+                                        <div class="modal-body">
+                                            Ici, chaque recherche génère des revenus pour le moteur de recherche, et Ecosia utilise tout simplement cet argent pour planter des arbres là où ils sont le plus nécessaires. Début mars 2019, c’est plus de 51 millions d’arbres plantés dans le monde.  
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.ecosia.org/" class="btn btn-primary">En savoir encore plus! </a>
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Retour</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--hebergeurs--> 
+            <div class="container-fluid" id="hebergeurs">
+                <div class=" d-flex align-items-center flex-column">
+                    <h2>Hébergeurs</h2>
+                    <p>Des millions de sites sont hébergés sur le internet, or, cela consomme énormément en énergie. <br />Certains hébergeurs font justement le choix de réduire leur impact.</p>
+                </div>
+                <div class="container">
+                    <div class="row d-flex justify-content-between">
+                        <div class="card" style="width:400px">
+                            <img class="card-img-top" src='https://nsa40.casimages.com/img/2019/03/06/190306073021559485.png' alt='logo ikoula avec poisson rouge' style="width:100%">
+                            <div class="card-body">
+                                <h3 class="card-title">Ikoula</h3>
+                                <p class="card-text">Un hébergeur français vert, ça vous tente ? </p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalIkoula">
+                                        En savoir plus
+                                </button>
+                            </div>
+                            <div class="modal fade" id="modalIkoula">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">     
+                                        <div class="modal-body">
+                                            Ikoula a fait le choix d’une énergie qui provient à 100% de source renouvelable, il privilégie des composants serveur à faible consommation électrique, recycle les déchets informatiques de ses serveurs, et prévoie encore d’autres modifications de ses structures dans l’objectif de poursuivre la réduction de son impact sur l’environnement. 
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.ikoula.com/fr/hebergement-web-eco-responsable" class="btn btn-primary">En savoir encore plus! </a>
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Retour</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width:400px">
+                            <img class="card-img-top" src='https://nsa40.casimages.com/img/2019/03/06/190306073022128804.png' alt=Logo Hostpapa homme âgé à la moustache proéminente'  style="width:100%">
+                            <div class="card-body">
+                                <h3 class="card-title">Hostpapa</h3>
+                                <p class="card-text">Et pour voir un peu plus large, allons à l'international</p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalHostPapa">
+                                        En savoir plus
+                                </button>
+                            </div>
+                            <div class="modal fade" id="modalHostPapa">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">     
+                                        <div class="modal-body">
+                                            Hostpapa est à ce jour entièrement alimenté à base de sources d’énergie certifiée verte et renouvelable pour alimenter ses centres informatiques, serveurs Web, ordinateurs de bureau, ordinateurs portatifs et locaux administratifs.  
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.hostpapa.fr/hebergement-web-vert/" class="btn btn-primary">En savoir encore plus! </a>
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Retour</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="annuaire">
+                <div class="container">
+                    <div class=" d-flex align-items-center flex-column">
+                        <h2>Informations</h2>
+                        <p>La Green Web Fondation propose sur son site un annuaire, il vous suffit de copier le lien d'un site dans la barre de recherche pour savoir s'il s'agit d'un site vert ou non!</p>
+                        <button type="button" class="btn btn-light"><a href="https://www.thegreenwebfoundation.org/">Le site <span>Super Green</span> pour trouver tous les Green!</a></button>
+                    </div>
+                </div>       
+            </div>
+        </section>
+<!--footer-->
+    <footer class="page-footer font-small indigo">
+        <div class="container">
+            <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+                <div class="col-md-3 mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="./greenwild-presentation.html">Présentation</a>
+                    </h6>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="./action.html">Comment agir?</a>
+                    </h6>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#">Quelques Acteurs</a>
+                    </h6>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="./contact.html">Contact</a>
+                    </h6>
+                </div>
+            </div>
+            <hr class="rgba-white-light">
+            <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+                <div class="col-md-8 col-12 mt-5">
+                    <p>L'idée d'écologie et de biodiversité rapportée au web ? Un lien qui semble bien lointain, mais les enjeux d'un numérique durable et responsable sont pourtant bien réel. Composée de quatre développeurs passionnés, l'équipe de Wild Green a pour objectif d'ouvrir la discussion sur un web "green", et de vous faire découvrir qu'il existe de nombreuses entreprises autour de vous qui pratiquent déjà ce concept. </p>
+                </div>
+            </div>
+            <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">    
+            <div class="footer-copyright text-center py-3">© 2019
+                <p>Wild Green</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </body>
+</html>
