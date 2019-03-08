@@ -8,7 +8,7 @@ h1 {
     text-shadow: 1px 1px 2px #000;
 }
 
-#agir h1, #contact h1, #presentation h1 {
+#agir h1, #contact h1, #presentation h1, #acteurs h1 {
     color: #A8854A !important;
     font-family: 'Ubuntu', sans-serif;
     margin-top: 2rem;
@@ -107,6 +107,106 @@ a:hover {
 
 #agir h3 {
     margin-top: 3rem;
+}
+
+/*acteurs*/
+
+#sous-titre {
+    font-weight: bold;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+h1 span {
+    color: #69ba4caa;
+}
+
+#acteurs h2 {
+    margin-top: 4rem;
+    margin-bottom: 7px;;
+    color: #A8854A;
+    border: solid 1px #A8854A;
+    padding: 7px;
+}
+
+#acteurs h2 + p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 2rem;
+}
+
+#acteurs ul {
+    width: 40%;
+    list-style-type: none;
+    display: flex;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+#acteurs .dropdown button {
+    display: block;
+    margin: auto;
+    background-color: #A8854A;
+    border: 1px solid #A8854A;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+#acteurs .dropdown-menu {
+    background-color: #A8854A;
+    color: #fff;
+}
+
+#acteurs .card {
+    margin-top: 2rem;
+}
+#moteurs {
+    background-color: #EBEBEB;
+}
+
+#acteurs .container-fluid {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+#acteurs .btn-primary {
+    background-color: #A8854A;
+    border-color: #A8854A;
+    display: flex;
+    margin: auto;
+}
+
+#acteurs .btn-danger {
+    background-color: #fff;
+    border-color: #A8854A;
+    color: #A8854A;
+}
+
+#acteurs .modal-body {
+    text-align: justify;
+    font-size: 19px;
+    padding: 5rem;
+}
+
+#acteurs #annuaire {
+    background-color: #EBEBEB;
+}
+
+#acteurs #annuaire .btn-light {
+    background-color: #A8854A;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+#annuaire .btn a {
+    color: #fff;
+    font-size: 20px;
+}
+
+#annuaire span {
+    color: #69ba4c;
 }
 /*contact*/
 #contact input {
