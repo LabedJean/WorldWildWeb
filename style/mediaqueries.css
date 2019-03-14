@@ -1,0 +1,63 @@
+@media (min-width: 768px){
+    .navbar-dark .navbar-nav .nav-link {
+        margin-right: 6rem;
+    } 
+}
+@media (max-width: 768px) {
+    .show {
+        background: radial-gradient(circle, #4c3d33, #65544d, #7f6c68, #988684, #b2a1a1) center top no-repeat;
+    }
+}
+
+@media (max-width: 592px) {
+    #accueil-img {
+        background-image: none !important;
+        height: 0 !important;
+    }
+    #accueil h1 {
+        font-size: 44px !important;
+        margin-top: 3rem !important;
+    }
+    #accueil p {
+        margin-bottom: 0 !important;
+        font-size: 17px !important;
+    }
+    #presentation h2 {
+        font-size: 38px !important;
+    }
+}
+
+@media (max-width : 769px){
+    #graphique-media img {
+        display: none !important;
+    }
+
+    #graphique-media h2 {
+        font-size: 38px !important;
+    }
+
+    #graphique-media .sous-titre {
+        font-size: 13px !important;
+    }
+    #graphique-media li {
+        margin-top: 2rem !important;
+    }
+    #graphique-media p {
+        margin-bottom: 
+    }
+    #graphique-media p {
+        display: none !important;
+    }
+}
+
+@media (max-width : 360px){
+    #graphique-media h2 {
+        font-size: 28px !important;
+    } 
+}
+
+@media (max-width : 975px){
+    #articles .card {
+        margin-bottom: 1rem !important;
+    }
+}
