@@ -12,8 +12,6 @@ body {
 .navbar-dark .navbar-nav .nav-link {
     color: #000; /*attribue la couleur noire au text de la navbar*/
     font-size: 22px; /*attribue cette taille de police au texte de la navbar*/
-    padding-left: 60px;
-
 }
 
 #header {
@@ -44,7 +42,28 @@ body {
 
 /*INDEX*/
 /********accueil********/
+#accueil-img {
+    background-image: url('https://nsa40.casimages.com/img/2019/03/08/190308092025915230.png');
+    margin-top: 11rem;
+    background-repeat: no-repeat;
+    background-position: bottom 0 center;
+    height: 92vh;
+    margin: auto
+}
 
+#accueil h1 {
+    font-size: 65px;
+    margin-top: 16rem;
+    color: #000;
+}
+
+#accueil p {
+    display: table;
+    margin: auto;
+    margin-bottom: 17rem;
+    font-size: 27px;
+    color: #000;
+}
 
 /* Animation Titre Page d'accueil */
 .ml1 {
@@ -65,39 +84,6 @@ body {
     padding-bottom: 0.15em;
   }
   /* fun animation titre page d'accuei */
-
-#accueil-img {
-    background-image: url('https://nsa40.casimages.com/img/2019/03/08/190308092025915230.png');
-    margin-top: 11rem;
-    background-repeat: no-repeat;
-    background-position: bottom 0 center;
-    height: 100vh;
-    margin: auto
-}
-
-#accueil h1 {
-    font-size: 65px;
-    margin-top: 16rem;
-    color: #000;
-}
-
-#accueil p {
-    display: table;
-    margin: auto;
-    margin-bottom: 17rem;
-    font-size: 27px;
-    color: #000;
-}
-
-#accueil .far.fa-arrow-alt-circle-down {
-    width: 0;
-    display: table;
-    margin: auto;
-    font-size: 70px;
-    color: #5C7363;
-
-}
-
 /********presentation********/
 
 #presentation h2 {
@@ -153,17 +139,7 @@ body {
     margin-left: 5rem;
     margin-right: 2rem;
 }
-/* BUTTON GGRAPHIQUE*/
 
-/*.green
-{
-    background-color: #fff;
-    border-color: #A8854A;
-    color: #A8854A;
-    display: table;
-    margin: auto;
-    border-radius: 15px
-}*/
 #boutonjs {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -181,13 +157,90 @@ body {
 }
 #hiddendiv{
     margin-top:1rem;
-    margin-bottom:1rem;
-
-    
+    margin-bottom:1rem;    
 }
-
 /********presentation********/
 /*INDEX*/
+/*ARTICLES*/
+
+#accueil-articles {
+    background-color: #4C3D33;
+    padding-bottom: 15rem;
+}
+
+.console-container {
+    font-size: 6em;
+    text-align: center;
+    height: 200px;
+    width: 600px;
+    display: block;
+    margin: auto;
+    margin-top: 21rem;
+}
+
+#articles h2 {
+    margin-top: 3rem;
+}
+
+#articles .btn-danger {
+    background-color: #fff;
+    border-color: #4C3D33;
+    color: #4C3D33;
+}
+
+#articles .btn-primary {
+    background-color: #4C3D33;
+    color: #fff;
+    border-color: #4C3D33;
+}
+
+.modal-body ul li {
+    list-style-type: none;
+    padding: 2rem;
+    text-align: justify;
+}
+
+.modal-body h3 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4C3D33;
+}
+
+#articles .btn-primary a {
+    color: #fff;
+}
+
+#articles span {
+    color: #9fbd92;
+}
+
+#articles-footer {
+    margin-top: 2rem;
+}
+/*ARTICLES*/
+/*PLANIFICATEUR*/
+#accueil-planificateur {
+    background-color: #4C3D33;
+    padding-bottom: 8rem;
+}
+
+#planificateur p, #planificateur h1 {
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+#planificateur p {
+    margin-top: 1rem;
+}
+
+#planificateur img {
+    height: 400px;
+    width: 401px;
+    display: flex;
+    margin: auto;
+}
 /*footer*/
 .page-footer {
     background-color: #4C3D33;
