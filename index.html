@@ -2,7 +2,7 @@
 <html lang="fr">
 	<head>
 		<meta charset="UTF-8">
-		<title>Wild Green</title>
+		<title>World Wild Web</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 		<meta content="width=device-width, initial-scale=1.0" name="viewport">
 		<meta content="Wild Code School Green Web informations" name="keywords">
@@ -15,66 +15,112 @@
         <meta property="og:url" content="www.WildGreen.com">
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link href="./style/style.css" rel="stylesheet">
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 	</head>
-	<body>
+	<body id="index">
 <!-- #header -->
-        <header>
-            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-                <a class="navbar-brand" href="./index.html">Wild Green</a>
+        <header id="header" class="header">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+                <a class="navbar-brand" href="#index"><img src='https://nsa40.casimages.com/img/2019/03/09/190309051605247667.png'  alt='logo en couleur noire' /></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <div class="collapse navbar-collapse justify-content-flex" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                    <a class="nav-link" href="./greenwild-presentation.html">Présentation</a>
+                        <a class="nav-link" href="./articles.html">Articles</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="./action.html">Agir</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="./entreprises.html">Quelques Acteurs</a>
+                        <a class="nav-link" href="./planificateur.html">Planificateur</a>
                     </li>  
                     <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
+                        <a class="nav-link" href="./contact.html">Contact</a>
                     </li> 
                 </ul>
                 </div>  
             </nav>
         </header>
-<!--#header -->
-<!--intro-->
-        <section id="intro">
-            <div class="container-fluid d-flex justify-content-center" id="intro-color">
-                <div class="flex-column">
-                    <h1>Wild Green</h1>
-                    <p>Tout sur le Green Web</p>
+        <!--#header -->
+<!--accueil-->
+        <section id="accueil">
+            <div class="container-fluid d-flex justify-content-center" id="accueil-img">
+                <div class="flex-column" >
+                    <h1 class ="ml1">
+                        <span class= "text-wrapper">
+                            <span class="letters">World Wild Web</span>
+                        </span>
+                    </h1>
+                    <p>On vous dit tout sur le Green Web</p>
                 </div>
             </div>
         </section>
+<!--accueil-->
+<!--présentation-->
+        <section id="presentation">
+            <div class="container">
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src='https://nsa40.casimages.com/img/2019/03/09/190309033712132517.jpg' alt="Feuille qui pousse" width="640" height="309">
+                        </div>
+                        <div class="carousel-item">
+                        <img src='https://nsa40.casimages.com/img/2019/03/09/190309033709125425.jpg'  alt="dechets"  width="640" height="309">
+                        </div>
+                        <div class="carousel-item">
+                        <img src='https://nsa40.casimages.com/img/2019/03/09/19030903370732167.jpg' width="640" height="309">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="graphique-media">
+                <div class="d-flex justify-content-center flex-column">
+                    <h2>Vous avez dit Green Web?</h2>
+                    <p class="sous-titre">Chaque jour, en utilisant nos appareils connectés (smartphones, tablettes ou ordinateurs), nous polluons.</p>
+                    <p class="sous-titre">Crée en 2006, le Green Web a pour objectif de lutter contre cette pollution numérique.</p>
+                </div>
+              
+                    <div id="hiddendiv">
+                            <input id="boutonjs" type="button" value="Graphique" onclick="masquer_div('hiddendiv');" />
+                            <!--------------------- JS------------------------->
+                            
+                            <h1 class="display-4"><img src="https://i.ibb.co/mvFp9C1/Graphique-conso-electricite-KWH-2012.png" id="loadingImage"> </h1>
+                            </div>
+                          
 
+                    <p>Comme vous pouvez le constater, la révolution numérique et technologique s'accompagne malheureusement d'une énorme consommation d'énergie, ce qui a un grand impact sur notre environnement.</p>
+                    <ul>
+                        <li>Réduire l'impact du réseau mondial sur l'atmosphère de la planète est une nécessité: aujourd'hui 28% des émissions de CO2 de la planète sont dues a la pollution numérique. Les Datacenter représentent 10% de l'électricité consommée en France. En 2020, 44 milliards de GO seront en ligne et ce chiffre doublera tous les ans.</li>
+                        <li>Changer la logique de conditionnement et de recyclage des appareils électroniques également : la première source de cette pollution sont les fabricants d'appareils numériques, avec la fabrication des ordinateurs, téléphones, tablettes etc. En effet la fabrication de ces nouvelles technologies est très demandeuse en ressources puisqu'il faut par exemple environ 16 fois son poids en matériaux pour pouvoir fabriquer un ordinateur.</li>
+                        <li>La fabrication engendre donc d'importantes pollutions de l'eau, de l'air mais également une consommation très importante de ressources qui ne sont pas toujours renouvelables et également beaucoup d'énergie.Au Ghana par exemple, une décharge de déchets électroniques reçois 40 millions de tonnes de déchets numériques par an, l'espérance de vie des jeunes qui y travaille est seulement de 25 ans</li>
+                        <li>Favoriser le stockage numérique à travers des Datacenter utilisant entièrement de l'énergie renouvelable et utiliser l'énergie dégagée par les data centers à d'autres fins, par exemple la chaleur générée peut servir à chauffer une piscine comme "La Butte aux cailles" dans le XIIIe arrondissement à Paris.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+<!--Fin carroussel-->
+<!--footer-->
     <footer class="page-footer font-small indigo">
         <div class="container">
             <div class="row text-center d-flex justify-content-center pt-5 mb-3">
                 <div class="col-md-3 mb-4">
-                    <h6 class="text-uppercase font-weight-bold">
-                        <a href="./greenwild-presentation.html">Présentation</a>
+                    <h6 class="text-uppercase">
+                        <a href="./articles.html">Articles</a>
                     </h6>
                 </div>
                 <div class="col-md-3 mb-4">
-                    <h6 class="text-uppercase font-weight-bold">
-                        <a href="./action.html">Comment agir?</a>
+                    <h6 class="text-uppercase">
+                        <a href="./planificateur.html">Planificateur</a>
                     </h6>
                 </div>
                 <div class="col-md-3 mb-4">
-                    <h6 class="text-uppercase font-weight-bold">
-                        <a href="./entreprises.html">Quelques Acteurs</a>
-                    </h6>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <h6 class="text-uppercase font-weight-bold">
+                    <h6 class="text-uppercase">
                         <a href="./contact.html">Contact</a>
                     </h6>
                 </div>
@@ -93,6 +139,7 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="./script.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </body>
 </html>
