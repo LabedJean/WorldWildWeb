@@ -154,10 +154,53 @@ body {
     border-color: #4C3D33;
 }
 
+.modal-body ul li {
+    list-style-type: none;
+    padding: 2rem;
+    text-align: justify;
+}
+
+.modal-body h3 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4C3D33;
+}
+
+#articles .btn-primary a {
+    color: #fff;
+}
+
+#articles span {
+    color: #9fbd92;
+}
+
 #articles-footer {
     margin-top: 2rem;
 }
 /*ARTICLES*/
+/*PLANIFICATEUR*/
+#accueil-planificateur {
+    background-color: #4C3D33;
+    padding-bottom: 8rem;
+}
+
+#planificateur p, #planificateur h1 {
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+#planificateur p {
+    margin-top: 1rem;
+}
+
+#planificateur img {
+    height: 400px;
+    width: 401px;
+    display: flex;
+    margin: auto;
+}
 /*footer*/
 .page-footer {
     background-color: #4C3D33;
