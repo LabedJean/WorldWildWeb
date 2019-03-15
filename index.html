@@ -16,7 +16,7 @@
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <link href="style.css" rel="stylesheet">
+        <link href="./style/style.css" rel="stylesheet">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 	</head>
 	<body id="index">
@@ -141,29 +141,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="./script.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    
-    <script>
-        function scrollWin() {
-            document.querySelector('#presentation').scrollIntoView({ 
-            behavior: 'smooth' 
-            });
-        }
-        $(function() {
-			var header = $(".header"); //variable header a pour parametre la class header
-			$(window).scroll(function() {    //la fenêtre au scroll déclenche cette fonction:
-				var scroll = $(window).scrollTop(); //la var scroll a pour valeur le nb de pixel entre ce qu'on scroll et le haut de la page
-			
-				if (scroll >= 180) { //si scroll est supérieur ou égal à 200px:
-					header.removeClass('header').addClass("header-alt"); //retire la class header et la remplace par la class header-alt
-				} else { //sinon (donc si il est inférieur à 200)
-					header.removeClass("header-alt").addClass('header'); //retire la class header-alt et la remplace par la class header
-				}
-			});
-        });
-
-
-
-
-    </script>
     </body>
 </html>
