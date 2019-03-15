@@ -1,0 +1,204 @@
+@import url("./mediaqueries.css"); /* importation de la page css qui contient les mediaqueries*/
+
+* {
+    font-family: 'Ubuntu', sans-serif; /*attribue la police à tous les élements de la page*/
+}
+
+body {
+    background-color: #9fbd92; /*attribue cette couleur de fond au body*/
+}
+/*nav*/
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #000; /*attribue la couleur noire au text de la navbar*/
+    font-size: 22px; /*attribue cette taille de police au texte de la navbar*/
+    padding-left: 60px;
+
+}
+
+#header {
+	position: fixed; /*fixe la navbar*/
+	left: 0;
+	top: 0;
+	right: 0;
+	transition: all 0.5s;
+	z-index: 997;
+}
+
+.header {
+    background: radial-gradient(circle, #4c3d33, #65544d, #7f6c68, #988684, #b2a1a1) center top no-repeat;
+}
+
+.header-alt {
+	padding: 38px 0;
+    background: radial-gradient(circle, #4c3d33, #65544d, #7f6c68, #988684, #b2a1a1) center top no-repeat;
+    transition: all 0.5s;
+}
+
+
+.navbar-collapse, .navbar-collapse a {
+    text-align: right;
+    justify-content: center;
+}
+/*nav*/
+
+/*INDEX*/
+/********accueil********/
+
+
+/* Animation Titre Page d'accueil */
+.ml1 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  
+  .ml1 .letters {
+    display: inline-block;
+    line-height: 1em;
+  }
+  
+  .ml1 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  /* fun animation titre page d'accuei */
+
+#accueil-img {
+    background-image: url('https://nsa40.casimages.com/img/2019/03/08/190308092025915230.png');
+    margin-top: 11rem;
+    background-repeat: no-repeat;
+    background-position: bottom 0 center;
+    height: 100vh;
+    margin: auto
+}
+
+#accueil h1 {
+    font-size: 65px;
+    margin-top: 16rem;
+    color: #000;
+}
+
+#accueil p {
+    display: table;
+    margin: auto;
+    margin-bottom: 17rem;
+    font-size: 27px;
+    color: #000;
+}
+
+#accueil .far.fa-arrow-alt-circle-down {
+    width: 0;
+    display: table;
+    margin: auto;
+    font-size: 70px;
+    color: #5C7363;
+
+}
+
+/********presentation********/
+
+#presentation h2 {
+    color: #4C3D33 !important;
+    margin-top: 2rem;
+    font-size: 50px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+#presentation .sous-titre {
+    display: flex;
+    margin: auto;
+    justify-content: center; 
+    font-weight: bold;
+}
+
+#centergraph {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+#presentation p {
+    display: flex;
+    margin: auto;
+    justify-content: center; 
+    text-align: justify;
+}
+
+#presentation .carousel-inner img {
+    width: 100%;
+    height: 100%;
+    margin-top: 15rem;
+	margin-bottom: 3rem;
+}
+
+#presentation .carousel-indicators li {
+    background-color: #000!important;
+    height: 5px;
+}
+#presentation ul li {
+    text-align: justify;
+    list-style-type: none;
+    margin: 2rem;
+}
+
+#centergraph + p {
+    margin-left: 5rem;
+    margin-right: 2rem;
+}
+/* BUTTON GGRAPHIQUE*/
+
+/*.green
+{
+    background-color: #fff;
+    border-color: #A8854A;
+    color: #A8854A;
+    display: table;
+    margin: auto;
+    border-radius: 15px
+}*/
+#boutonjs {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-color: #A8854A;
+    color: #A8854A;
+    display: table;
+    margin: auto;
+    border-radius: 15px
+}
+#loadingImage{
+    width: 500px;  
+    margin: auto;
+    display: none;
+}
+#hiddendiv{
+    margin-top:1rem;
+    margin-bottom:1rem;
+
+    
+}
+
+/********presentation********/
+/*INDEX*/
+/*footer*/
+.page-footer {
+    background-color: #4C3D33;
+}
+
+.page-footer a, .page-footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.page-footer p {
+    color: #fff;
+}
+/*footer*/
