@@ -53,8 +53,9 @@ window.setInterval(function() {
 $('.ml1 .letters').each(function(){
     $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
   });
-  //animation titre page d'accueil
   
+  
+  //animation titre page d'accueil 
   anime.timeline({loop: true})
     .add({
       targets: '.ml1 .letter',

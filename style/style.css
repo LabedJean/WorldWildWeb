@@ -241,6 +241,15 @@ body {
     display: flex;
     margin: auto;
 }
+/*contact*/
+#contact {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+#contact h1 {
+    margin-top: 1rem;
+}
 /*footer*/
 .page-footer {
     background-color: #4C3D33;
